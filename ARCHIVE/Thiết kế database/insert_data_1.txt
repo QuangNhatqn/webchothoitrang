@@ -1,0 +1,23 @@
+﻿ INSERT INTO SERVICETRADINGs(ServiceIDs,PostingIDs,TransactionTimes , ExecutionTimes )
+ VALUES(1,2,'2019/01/01 03:00:30','2019/01/01 03:30:30');
+ INSERT INTO SERVICETRADINGs(ServiceIDs,PostingIDs,TransactionTimes , ExecutionTimes )
+ VALUES(2,2,'2019/01/03 07:00:30','2019/01/03 07:40:30');
+ INSERT INTO SERVICETRADINGs(ServiceIDs,PostingIDs,TransactionTimes , ExecutionTimes )
+ VALUES(3,4,'2019/01/02 06:30:30','2019/01/05 07:30:30');
+ INSERT INTO SERVICETRADINGs(ServiceIDs,PostingIDs,TransactionTimes , ExecutionTimes )
+ VALUES(2,3,'2019/01/01 07:20:30','2019/01/03 09:20:30');
+ INSERT INTO SERVICETRADINGs(ServiceIDs,PostingIDs,TransactionTimes , ExecutionTimes )
+ VALUES(1,5,'2019/01/05 04:30:30','2019/01/06 07:30:30');
+
+
+ INSERT INTO POSTINGs(UserIDs, Categorys, Type1s, Type2s, Addresss, URLImage1s, URLImage2s, URLImage3s, Costs, Conditions, Titles, Details, Transportations, PostTimes ,Statuss)
+ VALUES(1, N'Giày dép', N'Cần bán', N'Cá nhân',N'Linh Trung Thủ Đức', 'img/giay1.jpg', 'img/giay2.jpg', 'img/giay3.jpg', 69000, N'Mới', N'Giày dép', N'Giày dép, chất lượng cao cấp, bán đủ các size.', N'Giao hàng buu điện', '2019/01/02 09:30:30', '1');
+ INSERT INTO POSTINGs(UserIDs, Categorys, Type1s, Type2s, Addresss, URLImage1s, URLImage2s, URLImage3s, Costs, Conditions, Titles, Details, Transportations, PostTimes ,Statuss)
+ VALUES(2, N'Áo', N'Cần bán', N'Bán chuyên',N'Linh Trung Thủ Đức', 'img/aothethethao1.jpg', 'img/aothethethao2.jpg', 'img/aothethethao3.jpg', 100000, N'Mới', N'Áo thể thao', N'Áo thể thao, chất liệu cao cấp, bán đủ các size.', N'Giao hàng bưu điện', '2019/01/01 09:30:30', '2');
+ INSERT INTO POSTINGs(UserIDs, Categorys, Type1s, Type2s, Addresss, URLImage1s, URLImage2s, URLImage3s, Costs, Conditions, Titles, Details, Transportations, PostTimes ,Statuss)
+ VALUES(2, N'Quần', N'Cần bán', N'Cá nhân',N'Linh Trung Thủ Đức', 'img/quanbaggy1.jpg', 'img/quanbaggy2.jpg', 'img/quanbaggy3.jpg', 19000, N'Ðã sử dụng', N'Quần baggy', N'Quần baggy, chất liệu cao cấp, bán đủ các size.', N'Giao hàng bưu điện', '2019/01/03 07:30:30', '2');
+ INSERT INTO POSTINGs(UserIDs, Categorys, Type1s, Type2s, Addresss, URLImage1s, URLImage2s, URLImage3s, Costs, Conditions, Titles, Details, Transportations, PostTimes ,Statuss)
+ VALUES(2, N'Mũ', N'Cần bán', N'Cá nhân',N'Linh Trung Thủ Đức', 'img/mudim1.jpg','img/mudim2.jpg','img/mudim3.jpg', 70000, N'Mới', N'Mũ dìm', N'Mũ dìm, chất liệu cao cấp, thời trang', N'Gặp mặt giao hàng', '2019/01/04 09:20:30', '2');
+ INSERT INTO POSTINGs(UserIDs, Categorys, Type1s, Type2s, Addresss, URLImage1s, URLImage2s, URLImage3s, Costs, Conditions, Titles, Details, Transportations, PostTimes ,Statuss)
+ VALUES(3, N'Áo', N'Cần bán', N'Cá nhân',N'Linh Trung Thủ Đức', 'img/aothoitrang1.jpg', 'img/aothoitrang2.jpg','img/aothoitrang3.jpg', 69000, N'Ðã sử dụng', N'Áo thời trang', N'Áo thời trang, chất lượng cao cấp, bán đủ các size cho nữ.', N'Giao hàng bưu điện', '2019/01/03 09:30:30', '2');
+ 
